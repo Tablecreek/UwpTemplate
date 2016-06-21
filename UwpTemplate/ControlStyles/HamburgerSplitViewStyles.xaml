@@ -46,7 +46,6 @@
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup x:Name="CommonStates">
                                 <VisualState x:Name="Normal" />
-                                
                                 <VisualState x:Name="PointerOver">
                                     <Storyboard>
                                         
@@ -76,11 +75,11 @@
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                 </VisualState>
+                                
                                 <VisualState x:Name="Disabled" />
                             </VisualStateGroup>
-                            
+
                             <VisualStateGroup x:Name="CheckStates">
-                                
                                 <VisualState x:Name="Checked">
                                     <Storyboard>
                                         
@@ -117,10 +116,8 @@
                             VerticalAlignment="Stretch">
 
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition
-                                    Width="48" />
-                                <ColumnDefinition
-                                    Width="*" />
+                                <ColumnDefinition Width="48" />
+                                <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
                             <TextBlock
