@@ -18,7 +18,7 @@ namespace UwpTemplate.Views {
     public sealed partial class Shell : BasePage {
 
         public event BackClickEventHandler BackButtonClicked;
-
+        
         public bool IsMenuOpen {
             get {
                 return MainSplitView.IsPaneOpen;

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Globalization;
@@ -17,6 +19,12 @@ namespace UwpTemplate {
         public App() {
             InitializeComponent();
             Suspending += OnSuspending;
+
+            //UnhandledException += OnUnhandledException;
+        }
+
+        private void OnUnhandledException(object sender, UnhandledExceptionEventArgs unhandledExceptionEventArgs) {
+            Debug.Write(sender + ": " + unhandledExceptionEventArgs.Message);
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e) {
@@ -39,7 +47,6 @@ namespace UwpTemplate {
             Window.Current.Content = shell;
 
             Window.Current.Activate();
-
         }
 
         private void OnSuspending(object sender, SuspendingEventArgs e) {

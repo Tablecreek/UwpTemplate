@@ -10,9 +10,9 @@
             Property="Background"
             Value="Transparent" />
 
-        <!--<Setter
+        <Setter
             Property="Foreground"
-            Value="{ThemeResource SystemMainBrush}" />-->
+            Value="{ThemeResource SystemMainBrush}" />
 
         <Setter
             Property="Padding"
@@ -48,19 +48,19 @@
                                 <VisualState x:Name="Normal" />
                                 <VisualState x:Name="PointerOver">
                                     <Storyboard>
-                                        
+
                                         <ObjectAnimationUsingKeyFrames
                                             Storyboard.TargetProperty="Background"
                                             Storyboard.TargetName="BackgroundGrid">
 
                                             <DiscreteObjectKeyFrame
                                                 KeyTime="0"
-                                                Value="{ThemeResource NavigationButtonHoverBackgroundBrush}" />
+                                                Value="{StaticResource NavigationButtonHoverBackgroundBrush}" />
 
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                 </VisualState>
-                                
+
                                 <VisualState x:Name="Pressed">
                                     <Storyboard>
 
@@ -70,41 +70,41 @@
 
                                             <DiscreteObjectKeyFrame
                                                 KeyTime="0"
-                                                Value="{ThemeResource NavigationButtonPressedBackgroundBrush}" />
+                                                Value="{StaticResource NavigationButtonPressedBackgroundBrush}" />
 
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                 </VisualState>
-                                
+
                                 <VisualState x:Name="Disabled" />
                             </VisualStateGroup>
 
                             <VisualStateGroup x:Name="CheckStates">
                                 <VisualState x:Name="Checked">
                                     <Storyboard>
-                                        
+
                                         <ObjectAnimationUsingKeyFrames
                                             Storyboard.TargetProperty="Background"
                                             Storyboard.TargetName="BackgroundGrid">
 
                                             <DiscreteObjectKeyFrame
                                                 KeyTime="0"
-                                                Value="{ThemeResource NavigationButtonCheckedBackgroundBrush}" />
+                                                Value="{StaticResource NavigationButtonCheckedBackgroundBrush}" />
 
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
                                 </VisualState>
-                                
+
                                 <VisualState x:Name="Unchecked" />
-                                
+
                                 <VisualState x:Name="Indeterminate" />
                             </VisualStateGroup>
 
                             <VisualStateGroup x:Name="FocusStates">
                                 <VisualState x:Name="Focused" />
-                                
+
                                 <VisualState x:Name="Unfocused" />
-                                
+
                                 <VisualState x:Name="PointerFocused" />
                             </VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>
@@ -124,7 +124,8 @@
                                 FontSize="20"
                                 Text="{TemplateBinding Tag}"
                                 VerticalAlignment="Center"
-                                HorizontalAlignment="Center" />
+                                HorizontalAlignment="Center"
+                                FontFamily="Segoe MDL2 Assets" />
 
                             <ContentPresenter
                                 x:Name="ContentPresenter"

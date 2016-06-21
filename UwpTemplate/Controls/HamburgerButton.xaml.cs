@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Input;
 
 namespace UwpTemplate.Controls {
 
-    public sealed partial class HamburgerButton : UserControl {
+    public sealed partial class HamburgerButton {
 
         private Modes _mode;
 
@@ -40,7 +40,7 @@ namespace UwpTemplate.Controls {
             InitializeComponent();
         }
 
-        private void ButtonTapped(object sender, TappedRoutedEventArgs e) {
+        private void HamburgerRadioButtonTapped(object sender, TappedRoutedEventArgs e) {
             switch (_mode) {
                 case Modes.Hamburger:
                     HamburgerButtonClicked?.Invoke(sender, e);
@@ -56,11 +56,9 @@ namespace UwpTemplate.Controls {
         }
 
         public enum Modes {
-
             Hamburger,
             Back,
             None
-
         }
 
     }

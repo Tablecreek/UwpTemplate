@@ -141,6 +141,7 @@
     <Folder Include="Converters\" />
     <Folder Include="String\ch\" />
     <Folder Include="String\de\" />
+    <Folder Include="String\en-US\" />
     <Folder Include="String\en\" />
     <Folder Include="String\fr\" />
     <Folder Include="String\it\" />

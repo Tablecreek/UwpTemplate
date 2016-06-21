@@ -40,7 +40,10 @@
                 x:Name="HamburgerRadioButton"
                 Grid.Column="0" />
 
-            <Rectangle Grid.Column="1"/>
+            <Rectangle
+                VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch"
+                Grid.Column="1"/>
             
         </Grid>
 
@@ -53,9 +56,7 @@
 
             <SplitView.Pane>
                 
-                <ScrollViewer 
-                    Background="{ThemeResource SystemMainBrush}"
-                    VerticalScrollBarVisibility="Auto">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
 
                     <StackPanel x:Name="SplitViewPanePanel">
 
