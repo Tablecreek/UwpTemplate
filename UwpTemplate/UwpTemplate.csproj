@@ -113,13 +113,14 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <PRIResource Include="String\General.resw" />
+    <PRIResource Include="String\Language.resw" />
     <PRIResource Include="String\HamburgerMenu.resw" />
     <PRIResource Include="String\ch\HamburgerMenu.resw" />
     <PRIResource Include="String\de\HamburgerMenu.resw" />
     <PRIResource Include="String\en\HamburgerMenu.resw" />
-    <PRIResource Include="String\fr\HamburgerMenu.resw" />
-    <PRIResource Include="String\it\HamburgerMenu.resw" />
+    <PRIResource Include="String\ch\MainPage.resw" />
+    <PRIResource Include="String\de\MainPage.resw" />
+    <PRIResource Include="String\en\MainPage.resw" />
     <None Include="UwpTemplate_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
