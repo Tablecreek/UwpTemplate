@@ -10,9 +10,9 @@
             Property="Background"
             Value="Transparent" />
 
-        <Setter
+        <!--<Setter
             Property="Foreground"
-            Value="{ThemeResource SystemMainBrush}" />
+            Value="{ThemeResource SystemMainBrush}" />-->
 
         <Setter
             Property="Padding"

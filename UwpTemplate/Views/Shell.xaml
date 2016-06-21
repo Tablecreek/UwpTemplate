@@ -11,8 +11,7 @@
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary
-                    Source="../Styles/HamburgerSplitViewStyles.xaml" />
+                <ResourceDictionary Source="../ControlStyles/HamburgerSplitViewStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Page.Resources>
@@ -28,53 +27,21 @@
             Name="HeaderGrid"
             Grid.Row="0"
             HorizontalAlignment="Stretch">
-            <Grid.Background>
-                <SolidColorBrush Color="{StaticResource SikadoMainColor}" />
-            </Grid.Background>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition
-                    Width="Auto" />
-                <ColumnDefinition
-                    Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <controls:HamburgerControl
-                Foreground="White"
+            <controls:HamburgerButton
                 Width="48"
                 BackButtonClicked="BackRadioButtonClick"
                 HamburgerButtonClicked="HamburgerRadioButtonClick"
                 x:Name="HamburgerRadioButton"
                 Grid.Column="0" />
 
-            <RelativePanel
-                Padding="0,8,0,0"
-                Margin="8,0,0,0"
-                Grid.Column="1"
-                VerticalAlignment="Stretch"
-                HorizontalAlignment="Stretch">
-
-                <TextBlock
-                    Height="Auto"
-                    FontSize="20"
-                    Text="{Binding Title}"
-                    FontWeight="Bold"
-                    Name="TitleTextBlock"
-                    VerticalAlignment="Center"
-                    RelativePanel.Above="SubTitleTextBlock"
-                    RelativePanel.AlignVerticalCenterWithPanel="True" />
-
-                <TextBlock
-                    Height="Auto"
-                    RelativePanel.AlignBottomWithPanel="True"
-                    Width="Auto"
-                    FontSize="14"
-                    Margin="0,-4,0,0"
-                    Text="{Binding SubTitle}"
-                    Name="SubTitleTextBlock"
-                    VerticalAlignment="Center" />
-
-            </RelativePanel>
+            <Rectangle Grid.Column="1"/>
+            
         </Grid>
 
         <SplitView
@@ -82,28 +49,26 @@
             x:Name="MainSplitView"
             DisplayMode="CompactOverlay"
             IsPaneOpen="False"
-            PaneBackground="GhostWhite"
             Content="{Binding}">
 
             <SplitView.Pane>
                 
                 <ScrollViewer 
-                    Background="{ThemeResource SikadoMainBrush}"
+                    Background="{ThemeResource SystemMainBrush}"
                     VerticalScrollBarVisibility="Auto">
 
                     <StackPanel x:Name="SplitViewPanePanel">
 
                         <RadioButton
-                            x:Name="SomeRadioButton"
-                            Click="SomeRadioButtonClick"
-                            Style="{ThemeResource NavRadioButtonStyle}"
+                            x:Name="HomeRadioButton"
+                            Click="HomeRadioButtonClick"
+                            Style="{ThemeResource NavigationButtonStyle}"
                             Tag="X"
-                            x:Uid="/Shell/HomeRadioButton"
                             GroupName="Navigation" />
 
                         <Border
                             BorderThickness="0.5"
-                            BorderBrush="{ThemeResource SikadoMainBrush}" />
+                            BorderBrush="{ThemeResource SystemMainBrush}" />
                         
                     </StackPanel>
                 </ScrollViewer>

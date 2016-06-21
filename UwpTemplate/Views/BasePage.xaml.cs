@@ -25,6 +25,7 @@ namespace UwpTemplate.Views {
             if (!Frame.CanGoBack) {
                 return;
             }
+
             Frame.GoBack();
         }
     }

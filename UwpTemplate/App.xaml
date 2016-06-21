@@ -12,7 +12,7 @@
 
             <Color x:Key="SystemAccentColor">#FF20A060</Color>
             
-            <Color x:Key="SystemMainColor">#FF20A060</Color>
+            <Color x:Key="SystemMainColor">#FF001A7C</Color>
             
             <!--#endregion-->
 

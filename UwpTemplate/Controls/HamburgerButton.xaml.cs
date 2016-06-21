@@ -40,7 +40,7 @@ namespace UwpTemplate.Controls {
             InitializeComponent();
         }
 
-        private void HamburgerButtonTapped(object sender, TappedRoutedEventArgs e) {
+        private void ButtonTapped(object sender, TappedRoutedEventArgs e) {
             switch (_mode) {
                 case Modes.Hamburger:
                     HamburgerButtonClicked?.Invoke(sender, e);

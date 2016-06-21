@@ -12,16 +12,15 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary
-                    Source="../Styles/HamburgerSplitViewStyles.xaml" />
+                <ResourceDictionary Source="../ControlStyles/HamburgerSplitViewStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
 
     <RadioButton
-        x:Name="HamburgerButton"
-        Tapped="HamburgerButtonTapped"
-        Style="{StaticResource NavRadioButtonStyle}"
+        x:Name="Button"
+        Tapped="ButtonTapped"
+        Style="{ThemeResource NavigationButtonStyle}"
         GroupName="Hamburger" />
     
 </UserControl>
