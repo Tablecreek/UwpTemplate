@@ -11,10 +11,37 @@
             <!--#region Colors-->
 
             <Color x:Key="SystemAccentColor">#FF20A060</Color>
+            
+            <Color x:Key="SystemMainColor">#FF20A060</Color>
+            
+            <!--#endregion-->
+
+            <!--#region CustomBrushes-->
+            
+            <!--HamburgerMenu-->
+
+            <SolidColorBrush
+                x:Key="NavigationButtonPressedBackgroundBrush"
+                Color="{ThemeResource SystemAccentColor}"
+                Opacity="0.9" />
+
+            <SolidColorBrush
+                x:Key="NavigationButtonCheckedBackgroundBrush"
+                Color="{ThemeResource SystemAccentColor}"
+                Opacity="0.6" />
+
+            <SolidColorBrush
+                x:Key="NavigationButtonHoverBackgroundBrush"
+                Color="{ThemeResource SystemAccentColor}"
+                Opacity="0.3" />
 
             <!--#endregion-->
 
-            <!--#region Brushes-->
+            <!--#region SystemBrushes-->
+
+            <SolidColorBrush
+                x:Key="SystemMainBrush"
+                Color="{ThemeResource SystemMainColor}" />
 
             <SolidColorBrush
                 x:Key="SystemControlBackgroundAccentBrush"
