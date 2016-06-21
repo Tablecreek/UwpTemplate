@@ -15,6 +15,7 @@
     </UserControl.Resources>
 
     <RadioButton
+        x:Uid="/HamburgerMenu/HamburgerButton"
         x:Name="HamburgerRadioButton"
         Tapped="HamburgerRadioButtonTapped"
         Style="{ThemeResource NavigationButtonStyle}"

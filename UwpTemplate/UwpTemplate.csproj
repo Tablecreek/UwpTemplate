@@ -114,7 +114,12 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <PRIResource Include="String\General.resw" />
-    <PRIResource Include="String\Glyphs.resw" />
+    <PRIResource Include="String\HamburgerMenu.resw" />
+    <PRIResource Include="String\ch\HamburgerMenu.resw" />
+    <PRIResource Include="String\de\HamburgerMenu.resw" />
+    <PRIResource Include="String\en\HamburgerMenu.resw" />
+    <PRIResource Include="String\fr\HamburgerMenu.resw" />
+    <PRIResource Include="String\it\HamburgerMenu.resw" />
     <None Include="UwpTemplate_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -139,12 +144,6 @@
     <Folder Include="Assets\Fonts\" />
     <Folder Include="Assets\Pictures\" />
     <Folder Include="Converters\" />
-    <Folder Include="String\ch\" />
-    <Folder Include="String\de\" />
-    <Folder Include="String\en-US\" />
-    <Folder Include="String\en\" />
-    <Folder Include="String\fr\" />
-    <Folder Include="String\it\" />
     <Folder Include="Values\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>

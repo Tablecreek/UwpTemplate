@@ -61,10 +61,10 @@
                     <StackPanel x:Name="SplitViewPanePanel">
 
                         <RadioButton
+                            x:Uid="/HamburgerMenu/HomeButton"
                             x:Name="HomeRadioButton"
                             Click="HomeRadioButtonClick"
                             Style="{ThemeResource NavigationButtonStyle}"
-                            Tag="X"
                             GroupName="Navigation" />
 
                         <Border
