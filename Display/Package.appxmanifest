@@ -5,7 +5,7 @@
   <Properties>
     <DisplayName>UwpTemplate</DisplayName>
     <PublisherDisplayName>ds_alain</PublisherDisplayName>
-    <Logo>Assets\App\Store\StoreLogo.png</Logo>
+    <Logo>Assets\App\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
@@ -15,14 +15,16 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="UwpTemplate.App">
-      <uap:VisualElements DisplayName="UwpTemplate" Square150x150Logo="Assets\App\Tiles\Square150x150Logo.png" Square44x44Logo="Assets\App\Tiles\Square44x44Logo.png" Description="UwpTemplate" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\App\Tiles\Wide310x150Logo.png">
+      <uap:VisualElements DisplayName="UwpTemplate" Square150x150Logo="Assets\App\Square150x150Logo.png" Square44x44Logo="Assets\App\Square44x44Logo.png" Description="UwpTemplate" BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\App\BadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\App\Wide310x150Logo.png" Square310x310Logo="Assets\App\Square310x310Logo.png" Square71x71Logo="Assets/App/Square71x71Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\App\SplashScreen\SplashScreen.png" />
+        <uap:SplashScreen Image="Assets\App\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

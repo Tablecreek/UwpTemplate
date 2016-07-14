@@ -128,14 +128,76 @@
     <None Include="UwpTemplate_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\App\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\App\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\App\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\App\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\App\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\App\smile.png" />
+    <Content Include="Assets\App\SplashScreen.scale-100.png" />
+    <Content Include="Assets\App\SplashScreen.scale-125.png" />
+    <Content Include="Assets\App\SplashScreen.scale-150.png" />
+    <Content Include="Assets\App\SplashScreen.scale-200.png" />
+    <Content Include="Assets\App\SplashScreen.scale-400.png" />
+    <Content Include="Assets\App\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\App\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\App\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\App\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\App\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\App\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\App\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\App\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\App\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\App\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\App\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\App\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\App\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\App\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\App\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-16_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-20.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-20_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-256_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-30.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-30_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-32_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-36.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-36_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-40.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-40_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-60.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-60_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-64.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-64_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-72.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-72_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-80.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-80_altform-unplated.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-96.png" />
+    <Content Include="Assets\App\Square44x44Logo.targetsize-96_altform-unplated.png" />
+    <Content Include="Assets\App\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\App\Square71x71Logo.scale-125.png" />
+    <Content Include="Assets\App\Square71x71Logo.scale-150.png" />
+    <Content Include="Assets\App\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\App\Square71x71Logo.scale-400.png" />
+    <Content Include="Assets\App\StoreLogo.scale-100.png" />
+    <Content Include="Assets\App\StoreLogo.scale-125.png" />
+    <Content Include="Assets\App\StoreLogo.scale-150.png" />
+    <Content Include="Assets\App\StoreLogo.scale-200.png" />
+    <Content Include="Assets\App\StoreLogo.scale-400.png" />
+    <Content Include="Assets\App\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\App\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\App\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\App\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\App\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="Assets\App\LockScreen\LockScreenLogo.scale-200.png" />
-    <Content Include="Assets\App\SplashScreen\SplashScreen.scale-200.png" />
-    <Content Include="Assets\App\Tiles\Square150x150Logo.scale-200.png" />
-    <Content Include="Assets\App\Tiles\Square44x44Logo.scale-200.png" />
-    <Content Include="Assets\App\Tiles\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\App\Store\StoreLogo.png" />
-    <Content Include="Assets\App\Tiles\Wide310x150Logo.scale-200.png" />
     <Content Include="_TODO.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -145,7 +207,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\App\Tiles\Secondary\" />
     <Folder Include="Assets\Fonts\" />
     <Folder Include="Assets\Pictures\" />
     <Folder Include="Converters\" />
@@ -175,7 +236,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UwpTemplate.BusinessLayer\Objects.csproj">
+    <ProjectReference Include="..\Objects\Objects.csproj">
       <Project>{c9f7c71c-dc4f-4416-a3ea-69ca0e0f9ed4}</Project>
       <Name>Objects</Name>
     </ProjectReference>
