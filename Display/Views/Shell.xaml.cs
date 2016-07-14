@@ -3,9 +3,9 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace UwpTemplate.Display.Views {
+namespace Display.Views {
 
-    public sealed partial class Shell : Display.Views.BasePage {
+    public sealed partial class Shell : BasePage {
 
         public event BackClickEventHandler BackButtonClicked;
         
@@ -32,7 +32,7 @@ namespace UwpTemplate.Display.Views {
         }
 
         private void HomeRadioButtonClick(object sender, RoutedEventArgs e) {
-            NavigateTo(typeof(Display.Views.MainPage));
+            NavigateTo(typeof(global::Display.Views.MainPage));
         }
 
         private void NavigateTo(Type page, bool navtigateIfAlreadyOpen = false) {

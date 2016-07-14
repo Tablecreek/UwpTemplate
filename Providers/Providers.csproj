@@ -7,8 +7,8 @@
     <ProjectGuid>{B7E1CA28-F0D4-461B-A6B9-F97A471ECD83}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UwpTemplate.Providers</RootNamespace>
-    <AssemblyName>UwpTemplate.Providers</AssemblyName>
+    <RootNamespace>Providers</RootNamespace>
+    <AssemblyName>Providers</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>

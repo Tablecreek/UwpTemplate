@@ -2,7 +2,7 @@
 
 using Windows.UI.Xaml.Input;
 
-namespace UwpTemplate.Display.Controls {
+namespace Display.Controls {
 
     public sealed partial class HamburgerButton {
 

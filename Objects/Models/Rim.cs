@@ -1,4 +1,4 @@
-﻿namespace UwpTemplate.Objects.Models {
+﻿namespace Objects.Models {
 
     public class Rim {
 

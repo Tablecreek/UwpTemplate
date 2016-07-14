@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace UwpTemplate.DisplayData.ViewModels {
+namespace DisplayData.ViewModels {
 
     public class NotificationBase : INotifyPropertyChanged {
 

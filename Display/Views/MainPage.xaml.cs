@@ -1,8 +1,8 @@
-﻿using UwpTemplate.DisplayData.ViewModels;
+﻿using DisplayData.ViewModels;
 
-namespace UwpTemplate.Display.Views {
+namespace Display.Views {
 
-    public sealed partial class MainPage : Display.Views.BasePage {
+    public sealed partial class MainPage {
         
         public WheelViewModel WheelViewModel;
 

@@ -1,6 +1,6 @@
-﻿using UwpTemplate.Objects.Models;
+﻿using Objects.Models;
 
-namespace UwpTemplate.DisplayData.ViewModels {
+namespace DisplayData.ViewModels {
 
     public class TireViewModel : NotificationBase<Tire> {
         

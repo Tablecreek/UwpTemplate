@@ -1,4 +1,4 @@
-﻿namespace UwpTemplate.Providers {
+﻿namespace Providers {
     public class Class1 {
     }
 }

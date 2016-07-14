@@ -7,8 +7,8 @@
     <ProjectGuid>{BD2B44D4-8B2E-4FDB-8833-A5B9BC25D016}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UwpTemplate.DisplayData</RootNamespace>
-    <AssemblyName>UwpTemplate.DisplayData</AssemblyName>
+    <RootNamespace>DisplayData</RootNamespace>
+    <AssemblyName>DisplayData</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>

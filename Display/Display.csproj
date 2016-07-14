@@ -7,8 +7,8 @@
     <ProjectGuid>{0AF07BBF-F030-44E5-8A5A-E959D15D64EE}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UwpTemplate.Display</RootNamespace>
-    <AssemblyName>UwpTemplate.Display</AssemblyName>
+    <RootNamespace>Display</RootNamespace>
+    <AssemblyName>Display</AssemblyName>
     <DefaultLanguage>en</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>

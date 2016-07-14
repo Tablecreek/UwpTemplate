@@ -3,7 +3,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace UwpTemplate.Display.Views {
+namespace Display.Views {
 
     public partial class BasePage : Page {
 
