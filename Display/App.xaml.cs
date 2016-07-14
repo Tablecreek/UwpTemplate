@@ -8,7 +8,9 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-using UwpTemplate.Views;
+using UwpTemplate.Display.Views;
+
+using MainPage = UwpTemplate.Display.Views.MainPage;
 
 namespace UwpTemplate {
 

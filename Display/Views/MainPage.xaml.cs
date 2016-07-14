@@ -1,23 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+﻿using UwpTemplate.DisplayData.ViewModels;
 
-using UwpTemplate.ViewModels;
+namespace UwpTemplate.Display.Views {
 
-namespace UwpTemplate.Views {
-
-    public sealed partial class MainPage : BasePage {
+    public sealed partial class MainPage : Display.Views.BasePage {
         
         public WheelViewModel WheelViewModel;
 

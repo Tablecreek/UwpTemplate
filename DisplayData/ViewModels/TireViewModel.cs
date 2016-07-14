@@ -1,8 +1,6 @@
-﻿using Windows.UI.Xaml.Shapes;
+﻿using UwpTemplate.Objects.Models;
 
-using UwpTemplate.BusinessLayer.Models;
-
-namespace UwpTemplate.ViewModels {
+namespace UwpTemplate.DisplayData.ViewModels {
 
     public class TireViewModel : NotificationBase<Tire> {
         

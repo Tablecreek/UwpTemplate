@@ -1,6 +1,4 @@
-﻿using UwpTemplate.Objects.Models;
-
-namespace UwpTemplate.BusinessLayer.Models {
+﻿namespace UwpTemplate.Objects.Models {
 
     public class Wheel {
 

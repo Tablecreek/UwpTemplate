@@ -99,10 +99,6 @@
       <DependentUpon>HamburgerButton.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\HelperViewModel.cs" />
-    <Compile Include="ViewModels\RimViewModel.cs" />
-    <Compile Include="ViewModels\TireViewModel.cs" />
-    <Compile Include="ViewModels\WheelViewModel.cs" />
     <Compile Include="Views\BasePage.xaml.cs">
       <DependentUpon>BasePage.xaml</DependentUpon>
     </Compile>
@@ -236,9 +232,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Objects\Objects.csproj">
-      <Project>{c9f7c71c-dc4f-4416-a3ea-69ca0e0f9ed4}</Project>
-      <Name>Objects</Name>
+    <ProjectReference Include="..\DisplayData\DisplayData.csproj">
+      <Project>{bd2b44d4-8b2e-4fdb-8833-a5b9bc25d016}</Project>
+      <Name>DisplayData</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

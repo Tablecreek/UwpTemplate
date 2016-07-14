@@ -1,21 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
-namespace UwpTemplate.Views {
+namespace UwpTemplate.Display.Views {
 
-    public sealed partial class Shell : BasePage {
+    public sealed partial class Shell : Display.Views.BasePage {
 
         public event BackClickEventHandler BackButtonClicked;
         
@@ -42,7 +32,7 @@ namespace UwpTemplate.Views {
         }
 
         private void HomeRadioButtonClick(object sender, RoutedEventArgs e) {
-            NavigateTo(typeof(MainPage));
+            NavigateTo(typeof(Display.Views.MainPage));
         }
 
         private void NavigateTo(Type page, bool navtigateIfAlreadyOpen = false) {

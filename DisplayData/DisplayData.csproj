@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9F7C71C-DC4F-4416-A3EA-69CA0E0F9ED4}</ProjectGuid>
+    <ProjectGuid>{BD2B44D4-8B2E-4FDB-8833-A5B9BC25D016}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UwpTemplate.Objects</RootNamespace>
-    <AssemblyName>UwpTemplate.Objects</AssemblyName>
+    <RootNamespace>UwpTemplate.DisplayData</RootNamespace>
+    <AssemblyName>UwpTemplate.DisplayData</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -107,16 +107,17 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Rim.cs" />
-    <Compile Include="Models\Tire.cs" />
-    <Compile Include="Models\Wheel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\UwpTemplate.BusinessLayer.rd.xml" />
+    <Compile Include="ViewModels\HelperViewModel.cs" />
+    <Compile Include="ViewModels\RimViewModel.cs" />
+    <Compile Include="ViewModels\TireViewModel.cs" />
+    <Compile Include="ViewModels\WheelViewModel.cs" />
+    <EmbeddedResource Include="Properties\DisplayData.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Providers\Providers.csproj">
-      <Project>{b7e1ca28-f0d4-461b-a6b9-f97a471ecd83}</Project>
-      <Name>Providers</Name>
+    <ProjectReference Include="..\Objects\Objects.csproj">
+      <Project>{c9f7c71c-dc4f-4416-a3ea-69ca0e0f9ed4}</Project>
+      <Name>Objects</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

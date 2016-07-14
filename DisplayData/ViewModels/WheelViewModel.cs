@@ -1,4 +1,4 @@
-﻿namespace UwpTemplate.ViewModels {
+﻿namespace UwpTemplate.DisplayData.ViewModels {
 
     public class WheelViewModel : NotificationBase {
 

@@ -1,11 +1,6 @@
-﻿using System;
+﻿using UwpTemplate.Objects.Models;
 
-using Windows.UI.Xaml.Shapes;
-
-using UwpTemplate.BusinessLayer.Models;
-using UwpTemplate.Objects.Models;
-
-namespace UwpTemplate.ViewModels {
+namespace UwpTemplate.DisplayData.ViewModels {
 
     public class RimViewModel : NotificationBase<Rim> {
 

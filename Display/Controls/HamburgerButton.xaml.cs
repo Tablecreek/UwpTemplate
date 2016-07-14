@@ -1,9 +1,8 @@
 ﻿using System;
 
-using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 
-namespace UwpTemplate.Controls {
+namespace UwpTemplate.Display.Controls {
 
     public sealed partial class HamburgerButton {
 

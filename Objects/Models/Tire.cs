@@ -1,4 +1,4 @@
-﻿namespace UwpTemplate.BusinessLayer.Models {
+﻿namespace UwpTemplate.Objects.Models {
 
     public class Tire {
 
