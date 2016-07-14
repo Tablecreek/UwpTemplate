@@ -7,8 +7,8 @@
     <ProjectGuid>{C9F7C71C-DC4F-4416-A3EA-69CA0E0F9ED4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UwpTemplate.BusinessLayer</RootNamespace>
-    <AssemblyName>UwpTemplate.BusinessLayer</AssemblyName>
+    <RootNamespace>UwpTemplate.Objects</RootNamespace>
+    <AssemblyName>UwpTemplate.Objects</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -107,7 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\SampleModel.cs" />
+    <Compile Include="Models\Rim.cs" />
+    <Compile Include="Models\Tire.cs" />
+    <Compile Include="Models\Wheel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\UwpTemplate.BusinessLayer.rd.xml" />
   </ItemGroup>

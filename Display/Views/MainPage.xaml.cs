@@ -13,12 +13,18 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using UwpTemplate.ViewModels;
+
 namespace UwpTemplate.Views {
 
     public sealed partial class MainPage : BasePage {
+        
+        public WheelViewModel WheelViewModel;
 
         public MainPage() {
             InitializeComponent();
+
+            WheelViewModel = new WheelViewModel();
         }
     }
 }
