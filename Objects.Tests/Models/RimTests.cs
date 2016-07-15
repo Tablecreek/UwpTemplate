@@ -21,11 +21,7 @@ namespace Objects.Tests.Models {
 
         [TestMethod]
         public void ConvertDiameterInInchesToMilliMeter() {
-            var rim = new Rim();
 
-            rim.DiameterInInches = 15;
-
-            Assert.AreEqual(381, rim.DiameterInMillimeters);
         }
 
         [TestCleanup]

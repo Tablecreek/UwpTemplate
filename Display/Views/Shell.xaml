@@ -71,6 +71,17 @@
                             BorderThickness="0.5"
                             BorderBrush="{ThemeResource SystemMainBrush}" />
                         
+                        <RadioButton
+                            x:Uid="/HamburgerMenu/NotHomeButton"
+                            x:Name="NotHomeButton"
+                            Click="NotHomeButtonClick"
+                            Style="{ThemeResource NavigationButtonStyle}"
+                            GroupName="Navigation" />
+
+                        <Border
+                            BorderThickness="0.5"
+                            BorderBrush="{ThemeResource SystemMainBrush}" />
+                        
                     </StackPanel>
                 </ScrollViewer>
             </SplitView.Pane>

@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HomeButton.Content" xml:space="preserve">
-    <value>Zuhause</value>
+  <data name="NumberPickerControl.Header" xml:space="preserve">
+    <value>Wähl ä nummärä...</value>
   </data>
-  <data name="NotHomeButton.Content" xml:space="preserve">
-    <value>Nicht zuhause</value>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Nöd titäl</value>
   </data>
 </root>

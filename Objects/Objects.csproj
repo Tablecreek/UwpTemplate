@@ -107,10 +107,10 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Rim.cs" />
-    <Compile Include="Models\Tire.cs" />
-    <Compile Include="Models\Wheel.cs" />
+    <Compile Include="Models\IStorable.cs" />
+    <Compile Include="Models\SomeRandomDataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\RandomDataLoader.cs" />
     <EmbeddedResource Include="Properties\UwpTemplate.BusinessLayer.rd.xml" />
   </ItemGroup>
   <ItemGroup>

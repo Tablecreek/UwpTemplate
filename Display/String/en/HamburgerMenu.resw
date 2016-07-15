@@ -120,4 +120,7 @@
   <data name="HomeButton.Content" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="NotHomeButton.Content" xml:space="preserve">
+    <value>Not home</value>
+  </data>
 </root>

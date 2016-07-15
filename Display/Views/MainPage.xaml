@@ -9,40 +9,10 @@
 
     <StackPanel>
 
-        <TextBlock 
+        <TextBlock
             Style="{ThemeResource TitleTextBlockStyle}"
-            x:Uid="/MainPage/Title"/>
-        
-        <StackPanel>
-            
-            <TextBox Text="{x:Bind WheelViewModel.TireWidthInMillimeters, Mode=TwoWay}"/>
-            <TextBox Text="{x:Bind WheelViewModel.HeightToWidthRatio, Mode=TwoWay}"/>
-            <TextBox Text="{x:Bind WheelViewModel.RimDiameterInInches, Mode=TwoWay}"/>
-            
-        </StackPanel>
-        
-        <RelativePanel
-            BorderBrush="Blue"
-            BorderThickness="2">
-            
-            <Ellipse 
-                RelativePanel.AlignHorizontalCenterWithPanel="True"
-                RelativePanel.AlignVerticalCenterWithPanel="True"
-                Fill="Black"
-                x:Name="TireEllipse"
-                Width="{x:Bind WheelViewModel.DisplayWheelHeight, Mode=OneWay}"
-                Height="{x:Bind WheelViewModel.DisplayWheelHeight, Mode=OneWay}"/>
+            x:Uid="/MainPage/Title" />
 
-            <Ellipse
-                RelativePanel.AlignHorizontalCenterWithPanel="True"
-                RelativePanel.AlignVerticalCenterWithPanel="True"
-                Fill="White"
-                x:Name="RimEllipse"
-                Width="{x:Bind WheelViewModel.DisplayRimHeight, Mode=OneWay, FallbackValue=45}"
-                Height="{x:Bind WheelViewModel.DisplayRimHeight, Mode=OneWay, FallbackValue=45}" />
-
-        </RelativePanel>
-        
     </StackPanel>
 </views1:BasePage>
 

@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Controls;
 
 namespace Display.Views {
 
-    public sealed partial class Shell : BasePage {
+    public partial class Shell : BasePage {
 
         public event BackClickEventHandler BackButtonClicked;
         
@@ -32,7 +32,11 @@ namespace Display.Views {
         }
 
         private void HomeRadioButtonClick(object sender, RoutedEventArgs e) {
-            NavigateTo(typeof(global::Display.Views.MainPage));
+            NavigateTo(typeof(MainPage));
+        }
+
+        protected virtual void NotHomeButtonClick(object sender, RoutedEventArgs e) {
+            NavigateTo(typeof(NotmainPage), true);
         }
 
         private void NavigateTo(Type page, bool navtigateIfAlreadyOpen = false) {

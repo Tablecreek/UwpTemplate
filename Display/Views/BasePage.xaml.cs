@@ -25,8 +25,12 @@ namespace Display.Views {
 
         protected override void OnNavigatedFrom(NavigationEventArgs e) {
             base.OnNavigatedFrom(e);
+
             SystemNavigationManager.GetForCurrentView().BackRequested -= OnBackRequested;
-            Shell.BackButtonClicked -= OnBackRequested;
+
+            if (Shell != null) {
+                Shell.BackButtonClicked -= OnBackRequested;
+            }
         }
 
         protected virtual void GoBack() {
